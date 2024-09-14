@@ -10,10 +10,10 @@ export default function WeatherDisplay(props) {
         <span
           style={data.temperature > 20 ? { color: "red" } : { color: "blue" }}
         >
-          Tempratue:{data.temperature}
+          Temperature: {data.temperature}
         </span>
       </p>
-      <p>Condition:{data.conditions}</p>
+      <p>Condition: {data.conditions}</p>
     </div>
   );
 }
