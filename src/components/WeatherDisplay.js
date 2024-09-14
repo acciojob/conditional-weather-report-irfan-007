@@ -13,7 +13,7 @@ export default function WeatherDisplay(props) {
           Temperature: {data.temperature}
         </span>
       </p>
-      <p>Condition: {data.conditions}</p>
+      <p>Conditions: {data.conditions}</p>
     </div>
   );
 }
